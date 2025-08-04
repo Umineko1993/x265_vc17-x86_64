@@ -1,5 +1,5 @@
 # x265_vc17-x86_64
-x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をコンパイルしてます
+x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をビルドしてます
 
 # 簡単にビルドまでの手順を説明
 
