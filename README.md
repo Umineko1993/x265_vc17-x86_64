@@ -1,5 +1,5 @@
 # x265_vc17-x86_64
-x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をビルドしてます
+x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をビルドしてます。
 
 # 簡単にビルドまでの手順を説明
 
@@ -8,7 +8,7 @@ x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をビ�
 > [git](https://git-scm.com/downloads/win)</br>
 > [Visual Studio 2022](https://visualstudio.microsoft.com/ja/downloads/)
 
-①x265を保存する空ファイルを用意して、空ファイル内でWindowsターミナル又はコマンドプロンプトを開き、
+①x265を保存する空フォルダを用意して、空フォルダ内でWindowsターミナル又はコマンドプロンプトを開き、
 ` git clone https://bitbucket.org/multicoreware/x265_git.git ` を実行してクローンを作成。(ここでgit必要)
 
 x265のテスト版?のビルドしたい場合は、` git clone https://bitbucket.org/multicoreware/x265_git_testing.git ` こっちを実行。(x265_git_testingってファイルが出来る)
@@ -17,7 +17,7 @@ x265のテスト版?のビルドしたい場合は、` git clone https://bitbuck
 
 ③フォルダ内の`make-solutions.bat`を実行。(ここでCmake必要)
 
-④CMakeのウインドウが開いたら、`Configure`・`Generate`・`Open Project`の順に押すとVisual Studioが起動する。(Visual Studioが起動したらCmakeのウインドウは閉じてOK)
+④CMakeのウインドウが開いたら、`Configure`・`Generate`・`Open Project`の順にクリックするとVisual Studioが起動する。(Visual Studioが起動したらCmakeのウインドウは閉じてOK)
 
 ⑤Visual Studioが起動後ウインドウ上部の `ローカルWindowsデバッカー`をクリック。
 
