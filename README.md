@@ -1,7 +1,7 @@
 # x265_vc17-x86_64
 x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をコンパイルしてます
 
-簡単にビルドまでの手順を説明
+# 簡単にビルドまでの手順を説明
 
 必要な物
 > [Cmake](https://cmake.org/download/)</br>
