@@ -6,7 +6,7 @@ x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をビ�
 必要な物
 > [Cmake](https://cmake.org/download/)</br>
 > [git](https://git-scm.com/downloads/win)</br>
-> [Visual Studio 2022](https://visualstudio.microsoft.com/ja/downloads/)
+> [Visual Studio 2022](https://visualstudio.microsoft.com/ja/downloads/)</br>
 > [NASM](https://nasm.us/)
 
 Cmake・git・NASMのPachを登録しておく
