@@ -7,6 +7,9 @@ x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をビ�
 > [Cmake](https://cmake.org/download/)</br>
 > [git](https://git-scm.com/downloads/win)</br>
 > [Visual Studio 2022](https://visualstudio.microsoft.com/ja/downloads/)
+> [NASM](https://nasm.us/)
+
+Cmake・git・NASMのPachを登録しておく
 
 ①x265を保存する空フォルダを用意して、空フォルダ内でWindowsターミナル又はコマンドプロンプトを開き、
 ` git clone https://bitbucket.org/multicoreware/x265_git.git ` を実行してクローンを作成。(ここでgit必要)
