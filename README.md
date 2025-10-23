@@ -22,7 +22,7 @@ x265のテスト版?のビルドしたい場合は、` git clone https://bitbuck
 
 ④CMakeのウインドウが開いたら、`Configure`・`Generate`・`Open Project`の順にクリックするとVisual Studioが起動する。(Visual Studioが起動したらCmakeのウインドウは閉じてOK)
 
-⑤Visual Studioが起動後ウインドウ上部の `ローカルWindowsデバッカー`をクリック。
+⑤Visual Studioが起動後ウインドウ上部の `ビルド(B)タブ`→`ソリューションのビルド(B)`をクリック。
 
 ⑥出力logに `=========== ビルド は -:--:- で完了し、--.--- 秒 掛かりました ==========`  が表示されたら、Visual Studioを終了させる。
 
