@@ -6,7 +6,7 @@ x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ ) をビ�
 必要な物
 > [Cmake](https://cmake.org/download/)</br>
 > [git](https://git-scm.com/downloads/win)</br>
-> [Visual Studio 2022](https://visualstudio.microsoft.com/ja/downloads/)</br>
+> [Visual Studio 2026](https://visualstudio.microsoft.com/ja/downloads/)</br>
 > [NASM](https://nasm.us/)
 
 Cmake・git・NASMのPachを登録しておく
@@ -18,12 +18,14 @@ x265のテスト版?のビルドしたい場合は、` git clone https://bitbuck
 
 ②x265_gitってフォルダが作成されるので、`x265_git→build→vc17-x86_64`と移動。 
 
-③フォルダ内の`make-solutions.bat`を実行。(ここでCmake必要)
+③フォルダ内の`make-solutions.bat`をメモ帳で開き、 cmake -G "Visual Studio 17 2022" ..\..\source && cmake-gui ..\..\source を cmake -G "Visual Studio 18 2026" ..\..\source && cmake-gui ..\..\source に書き換え。 (Visual Studio 2022でビルドする場合は飛ばす)
 
-④CMakeのウインドウが開いたら、`Configure`・`Generate`・`Open Project`の順にクリックするとVisual Studioが起動する。(Visual Studioが起動したらCmakeのウインドウは閉じてOK)
+④フォルダ内の`make-solutions.bat`を実行。(ここでCmake必要)
 
-⑤Visual Studioが起動後ウインドウ上部の `ビルド(B)タブ`→`ソリューションのビルド(B)`をクリック。
+⑤CMakeのウインドウが開いたら、`Configure`・`Generate`・`Open Project`の順にクリックするとVisual Studioが起動する。(Visual Studioが起動したらCmakeのウインドウは閉じてOK)
 
-⑥出力logに `=========== ビルド は -:--:- で完了し、--.--- 秒 掛かりました ==========`  が表示されたら、Visual Studioを終了させる。
+⑥Visual Studioが起動後ウインドウ上部の `ビルド(B)タブ`→`ソリューションのビルド(B)`をクリック。
 
-⑦`x265_git→build→vc17-x86_64→Debug`のフォルダ内に`x265.exe`が作成されている。
+⑦出力logに `=========== ビルド は -:--:- で完了し、--.--- 秒 掛かりました ==========`  が表示されたら、Visual Studioを終了させる。
+
+⑧`x265_git→build→vc17-x86_64→Debug`のフォルダ内に`x265.exe`が作成されている。
