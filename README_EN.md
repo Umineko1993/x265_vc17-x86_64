@@ -7,11 +7,8 @@ Building x265_git ( https://bitbucket.org/multicoreware/workspace/projects/PROJ 
 Required items
 
 > [Cmake](https://cmake.org/download/)</br>
-
 > [git](https://git-scm.com/downloads/win)</br>
-
 > [Visual Studio 2026](https://visualstudio.microsoft.com/ja/downloads/)</br>
-
 > [NASM](https://nasm.us/)
 
 Register packages for CMake, git, and NASM
