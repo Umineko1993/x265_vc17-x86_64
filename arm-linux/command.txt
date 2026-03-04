@@ -1,1 +1,1 @@
-cd .. && cd arm-linux && sudo chmod o+x make-Makefiles.bash && sudo ./make
+cd .. && cd arm-linux && sudo chmod o+x make-Makefiles.bash && sudo ./make-Makefiles.bash && sudo make
