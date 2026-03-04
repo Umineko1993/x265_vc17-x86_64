@@ -1,0 +1,1 @@
+cd .. && cd aarch64-linux && ./make-Makefiles.bash && make
