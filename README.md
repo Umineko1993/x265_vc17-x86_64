@@ -29,7 +29,7 @@ x265のテスト版?のビルドしたい場合は、` git clone https://bitbuck
 ⑦出力logに `=========== ビルド は -:--:- で完了し、--.--- 秒 掛かりました ==========`  が表示されたら、Visual Studioを終了させる。
 
 ⑧`x265_git→build→vc17-x86_64→Debug`のフォルダ内に`x265.exe`が作成されている。
-
+<br><br>
 Linux コマンド<br>
 作成順は、linux→arm-linux→aarch64-linux<br>
 <br>
