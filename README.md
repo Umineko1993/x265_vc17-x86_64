@@ -30,10 +30,12 @@ x265のテスト版?のビルドしたい場合は、` git clone https://bitbuck
 
 ⑧`x265_git→build→vc17-x86_64→Debug`のフォルダ内に`x265.exe`が作成されている。
 
-#Linux コマンド
+# Linux コマンド
 
 作成順は、linux→arm-linux→aarch64-linux
 
 ① ~$ Desktop && sudo rm -r x265_git && git clone https://bitbucket.org/multicoreware/x265_git.git && x265_git && build &&  linux && ./make-Makefiles.bash && make
+
 ② ~$ .. && arm-linux && sudo chmod o+x make-Makefiles.bash && sudo ./make-Makefiles.bash && sudo make
+
 ③ ~$ .. && aarch64-linux && ./make-Makefiles.bash && make
