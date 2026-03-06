@@ -1,1 +1,0 @@
-Desktop && sudo rm -r x265_git && git clone https://bitbucket.org/multicoreware/x265_git.git && x265_git && build &&  linux && ./make-Makefiles.bash && make
