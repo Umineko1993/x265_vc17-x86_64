@@ -1,0 +1,10 @@
+git clone https://bitbucket.org/multicoreware/x265_git.git
+
+Desktop && sudo rm -r x265_git && git clone https://bitbucket.org/multicoreware/x265_git.git && x265_git && build &&  linux && ./make-Makefiles.bash && make
+
+.. && arm-linux && sudo chmod o+x make-Makefiles.bash && sudo ./make-Makefiles.bash && sudo make
+
+.. && aarch64-linux && ./make-Makefiles.bash && make
+
+
+sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo do-release-upgrade -d
